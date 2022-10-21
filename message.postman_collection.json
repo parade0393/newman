@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "a2b6e18b-f854-405d-a75b-b3f5aa552411",
+		"name": "message",
+		"description": "濮阳政务通短信",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "message-list",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": ".AspNetCore.Session=CfDJ8NOxfc9mvlZHgDLBW223L80GME8kBa0ip5ZXSJN38r1OhBYhlB1TYccKFDtpZ1%2BKlvKjUUOLEXphq%2BTNDziaJ5N1jA7U1COxmzHp9ohE1ENs2s6oPzA6XAQHI6JzDrmIMbqNZkophAmDJUzlTH03k2o2Jve%2FWyC3eSU8%2Bb2Rc5pj; AuthName=735db58e-754b-429c-b5ba-5561014c8897; AuthToken=E18DC95B2737129B5AFD499127100C7D; .AspNetCore.Cookies=CfDJ8NOxfc9mvlZHgDLBW223L82KBTLBJX5FFiZR6AztqGi1MF2Vi99JzDYu5s8psV_QEXtTKBP55JkWfikKHIMGkz85y4jgVRuYP5YxkTALfebOKzW7fmmYSkPdvPs1P8N7mBB3fqPjMDESom5dh-D-rCMa3_cJOVzV0C3eQTlxO4ko4MxagDFfZFqKj55B1v4beXocBOGMTDh9-Mc3Y3CArwpV3Vw1gICV7bN8LTHzlSFgMzQmUS2Hrh5LrWXKOi_KgHmcL2-WpIlzaMupX5pcVSs3AJfE3IUv4lOwwChB30a8HW3KJX63FAzc-sDnK4OiSEezsOshDes8nhsWw2AOWPjyvDAxlHZzeLcnQ1LUKZBsmOujXZuXrfiqqnFCRjAzFSv3keONKydW-ggDC4IDZX1pkb2VaKhLF7B3aT0ntgPnvkH8PQ9p4jQPAB0NGpXfXF0lYQJ0bbrdLo9MpucJqXU_yw0mSpYZL8pKw_rBGBCOCM3CGwRAOv_OV9b7V2fRBzd6Onp6fu-2yfTzOqUuLDu3xSDhuWgAOiuBX9E6s_Z2; .AspNetCore.Antiforgery.bTB2XZiN_e0=CfDJ8NOxfc9mvlZHgDLBW223L81hILqBscA4pnVGmmZ_NW_ZBEumvNuC7eL518Hb6nD8oaZoor6lzt5dCsuOZyBZ-Ep9x4hXeWSg0BT4X-ZmD87awddtPqj1cIX6OKlDy8wbE4YDuQWPQPVzsF2oKF-hUwU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "rows",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "recordId",
+							"value": "148490",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://218.29.175.190:8092/ShortMessage/GetList",
+					"protocol": "http",
+					"host": [
+						"218",
+						"29",
+						"175",
+						"190"
+					],
+					"port": "8092",
+					"path": [
+						"ShortMessage",
+						"GetList"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "e5215827-c1f2-447d-83c0-97cb56e281ec",
+		"name": "wanandroid",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "artile-list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.wanandroid.com/article/list/0/json",
+					"protocol": "https",
+					"host": [
+						"www",
+						"wanandroid",
+						"com"
+					],
+					"path": [
+						"article",
+						"list",
+						"0",
+						"json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
