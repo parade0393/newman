@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "a2b6e18b-f854-405d-a75b-b3f5aa552411",
 		"name": "message",
-		"description": "濮阳政务通短信",
+		"description": "短信",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
